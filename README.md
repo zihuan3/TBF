@@ -20,7 +20,9 @@ This project analyzes the global climate impact of Mount Pinatubo's 1991 volcani
 
 **Dataset**
 
-- Source: NASA climate data (CSV format)
+- NASA GISTEMP: https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt
+- NASA GISS: https://data.giss.nasa.gov/modelforce/strataer/tau.line_2012.12.txt
+- Volcanic Eruption Ref.: https://earthobservatory.nasa.gov/features/Volcano
 - Content: Global temperature anomalies in Celsius
 - Time Period: 1985-1995 (focusing on the decade surrounding the eruption)
 - Preprocessing: Calculated 12-month running mean for trend analysis
