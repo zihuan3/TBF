@@ -11,6 +11,15 @@ This project analyzes the global climate impact of Mount Pinatubo's 1991 volcani
 - Analysis of temperature patterns before, during, and after the eruption
 - Clear visualization of volcanic cooling effects despite concurrent climate factors
 
+**How to Run**
+
+- Open the notebook in Google Colab: https://colab.research.google.com/drive/1rcYXr6gWkGpB3pu4YYw59abWycCQ87mp
+
+    **Option 2: (Cells didn't run automatically)**
+    - Download NASA GISTEMP dataset: https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
+    - Run all cells and upload NASA GISTEMP dataset in order to reproduce the analysis
+    - All necessary data processing and visualization will be generated automatically
+
 **Technologies Used**
 
 - Python
@@ -33,15 +42,6 @@ This project analyzes the global climate impact of Mount Pinatubo's 1991 volcani
 - The volcanic impact is clearly visible even when accounting for other concurrent natural climate factors
 - The 12-month running mean effectively highlights the sustained cooling trend following the eruption
 - Other natural disasters occurring during this period would have typically caused opposite temperature effects, making Pinatubo's cooling impact even more significant
-
-**How to Run**
-
-- Open the notebook in Google Colab: https://colab.research.google.com/drive/1rcYXr6gWkGpB3pu4YYw59abWycCQ87mp
-
-    **Option 2: (Cells didn't run automatically)**
-    - Download NASA GISTEMP dataset: https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
-    - Run all cells and upload NASA GISTEMP dataset in order to reproduce the analysis
-    - All necessary data processing and visualization will be generated automatically
 
 **Future Improvements**
 
